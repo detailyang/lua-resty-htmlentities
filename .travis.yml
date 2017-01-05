@@ -1,4 +1,9 @@
 sudo: true
+env:
+  matrix:
+    - LUA=luajit     # latest stable version
+    - LUA=luajit2.0  # current head of 2.0 branch
+    - LUA=luajit2.1  # current head of 2.1 branch
 language: lua
 script:
   - make
