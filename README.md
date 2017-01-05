@@ -13,6 +13,9 @@ Table of Contents
 
 Status
 ====
+[![Build Status](https://travis-ci.org/detailyang/lua-resty-htmlentities.svg?branch=master)](https://travis-ci.org/detailyang/lua-resty-htmlentities)
+
+Production Ready
 
 Usage
 ====
