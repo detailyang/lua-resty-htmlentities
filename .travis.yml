@@ -5,6 +5,8 @@ env:
     - LUA=luajit2.0  # current head of 2.0 branch
     - LUA=luajit2.1  # current head of 2.1 branch
 language: lua
+before_install:
+  - source .travis/setenv_lua.sh
 script:
   - make
   - make test
