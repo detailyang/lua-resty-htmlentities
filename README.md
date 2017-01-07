@@ -6,6 +6,7 @@ Backport the [entities] to luajit with the ffi binding as the entities to UTF-8 
 Table of Contents
 -----------------
 * [Status](#status)
+* [Install](#install)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Author](#author)
@@ -16,6 +17,13 @@ Status
 [![Build Status](https://travis-ci.org/detailyang/lua-resty-htmlentities.svg?branch=master)](https://travis-ci.org/detailyang/lua-resty-htmlentities)
 
 Production Ready
+
+Install
+=======
+
+```bash
+make && make install
+```
 
 Usage
 ====
