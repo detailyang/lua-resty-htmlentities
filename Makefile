@@ -39,5 +39,5 @@ clean:
 	rm -f *.o *.so a.out *.d
 
 install:
-	install -D -m 755 $(SO_NAME) $(DESTDIR)/$(TARGET_DIR)/$(SO_NAME)
+	install -D -m 755 $(SO_NAME) $(DESTDIR)/$(SO_TARGET_DIR)/$(SO_NAME)
 	install -D -m 664 htmlentities.lua  $(DESTDIR)/$(LUA_TARGET_DIR)/htmlentities.lua
