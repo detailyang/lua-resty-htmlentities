@@ -24,6 +24,11 @@ Install
 ```bash
 make && make install
 ```
+or 
+
+```bash
+make && make install DESTDIR=/path/
+```
 
 Usage
 ====
