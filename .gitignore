@@ -36,3 +36,5 @@
 # Debug files
 *.dSYM/
 *.su
+
+*.tar.gz
