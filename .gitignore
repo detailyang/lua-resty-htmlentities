@@ -38,3 +38,5 @@
 *.su
 
 *.tar.gz
+lua-resty-htmlentities-*
+lua-resty-htmlentities-*.tar.gz
