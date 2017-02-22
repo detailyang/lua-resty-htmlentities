@@ -2,7 +2,7 @@ package.cpath = package.cpath..";./?.so"
 package.path = package.cpath..";./?.lua"
 
 
-local htmlentities = require("htmlentities")
+local htmlentities = require("lib.resty.htmlentities")
 
 local decoder, err = htmlentities.new()
 if err then
