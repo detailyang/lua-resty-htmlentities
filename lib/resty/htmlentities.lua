@@ -1,6 +1,5 @@
 local ffi = require('ffi')
 local ffi_new = ffi.new
-local ffi_cast = ffi.cast
 local ffi_string = ffi.string
 
 ffi.cdef[[
@@ -11,10 +10,6 @@ ffi.cdef[[
 local _M = {
     _VERSION = '0.1.0'
 }
-local ok, tab_new = pcall(require, "table.new")
-if not ok then
-    tab_new = function (narr, nrec) return {} end
-end
 
 
 local function find_shared_obj(cpath, so_name)
