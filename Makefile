@@ -32,7 +32,7 @@ ${OBJ} : %.o : %.c
 ${SO_NAME} : ${OBJ}
 	$(CC) $(CFLAGS) -DBUILDING_SO $^ -shared -o $@
 
-test:
+test: all
 	luajit test.lua
 
 clean:
